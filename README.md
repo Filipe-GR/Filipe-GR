@@ -4,10 +4,6 @@
 
 Much like the nature of a fractal, my approach to software engineering is to build scalable, robust, and strictly deterministic systems grounded in precise fundamentals.
 
-### Knowledge Base & Articles
-I maintain a public archive to document my research, architectural designs, and technical articles. It is a space where I mostly share knowledge.
-* [Access Knowledge Base](https://filipe-gr.github.io/knowledge-base/)
-
 ---
 
 ### Technical Highlights
