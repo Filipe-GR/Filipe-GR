@@ -2,7 +2,7 @@
 
 > CTO and Co-founder at [Ative o Fit](https://ativeofit.com/) | Computer Science Student at [UFLA](https://ufla.br)
 
-Much like the nature of a fractal, my approach to software engineering is to build scalable, robust, and strictly deterministic systems grounded in precise fundamentals.
+My approach to software engineering is to build scalable and robust systems grounded in precise fundamentals.
 
 ---
 
