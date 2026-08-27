@@ -1,22 +1,28 @@
 # Filipe G.R.
 
-> CTO and Co-founder at [Ative o Fit](https://ativeofit.com/) | Computer Science Student at [UFLA](https://ufla.br)
+> Co-founder at [Ative o Fit](https://ativeofit.com/) · Computer Science student at [UFLA](https://ufla.br)
 
-My approach to software engineering is to build scalable and robust systems grounded in precise fundamentals.
+**Making science fiction less fictional (for work and for fun)**
 
----
+I like building things, understanding how they work, and occasionally taking ideas further than they probably needed to go.
 
-### Technical Highlights
-
-**[Floatless: Q16.16 & Q32.32 Deterministic Math in C++ (128-bit safe)](https://gist.github.com/Filipe-GR/3004193aa8a7daa2ed1a9871269d1f16)**
-A C++ library for fixed-point arithmetic (Q16.16 and Q32.32), architected to guarantee strict determinism in cross-platform simulations by entirely suppressing the inconsistencies inherent to floating-point numbers.
-* **Strict Type Safety:** Explicit constructors that block accidental float/double conversions, ensuring data integrity within the simulation.
-* **Safe Q32.32 Arithmetic:** Native 128-bit support in GCC/Clang, implementing a manual 64x64->128-bit fallback to bypass overflow risks in 32-bit compilers (MSVC).
-* **High-Performance Trigonometry:** Sine and Cosine functions mapped to 1024-entry look-up tables (LUT), refined via linear interpolation (lerp).
-* **Bitwise Integer Square Root:** Highly optimized bit-shift algorithm, replacing the inefficiency of the Newton-Raphson method in a fixed-point context.
+Most of what I work on isn't public yet. A few projects are on their way to becoming open source, once they're ready to leave the workshop.
 
 ---
 
-### Contact
-* **Email:** filipegarciar@gmail.com
-* **Instagram:** [@filipe.g_r](https://www.instagram.com/filipe.g_r?igsh=aGVuejRlcTN5bTdu)
+## Something I've built
+
+### [Floatless — Q16.16 & Q32.32 Deterministic Math](https://gist.github.com/Filipe-GR/3004193aa8a7daa2ed1a9871269d1f16)
+
+Fixed-point arithmetic in C++ for deterministic cross-platform computation.
+
+* Q16.16 and Q32.32 arithmetic
+* Strict type safety
+* Overflow-safe 64×64 → 128-bit multiplication
+* LUT-based trigonometry
+* Integer square root
+* No floating point required
+
+---
+
+[Website](https://ativeofit.com/) · [LinkedIn](https://www.linkedin.com/in/filipe-gr/) · [Instagram](https://www.instagram.com/filipe.g_r/) · **[filipegarciar@gmail.com](mailto:filipegarciar@gmail.com)**
